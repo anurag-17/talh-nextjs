@@ -1,0 +1,59 @@
+#main-bg{
+    /* background-image: ; */
+    /* overflow: hidden; */
+    background:url("../../public/Manimage.svg");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    
+}
+#shampoo{
+    background-image: url('../../public/shampoo.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+    /* width: 100%; */
+    
+}
+#condition{
+    background-image: url('../../public/condition.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+#greens {
+    background-image: url('../../public/greenrect.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100%; */
+}
+#tri{
+    background-image: url('../../public/greenrect.svg');
+    background-size: auto; 
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+#black{
+    background-image: url('../../public/blackimg.svg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#mont{
+    font-family: 'Montserrat';
+}
+
+@media (min-width:1536px) and (max-width:1800px){
+    #middle-full{
+        padding-left: 130px;
+        padding-right: 20px;
+    }
+}

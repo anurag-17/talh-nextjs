@@ -1,0 +1,62 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/newcss.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+#main-bg{
+    /* background-image: ; */
+    /* overflow: hidden; */
+    background:url(/_next/static/media/Manimage.d6241a90.svg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    
+}
+#shampoo{
+    background-image: url(/_next/static/media/shampoo.bc6db44b.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+    /* width: 100%; */
+    
+}
+#condition{
+    background-image: url(/_next/static/media/condition.760273c4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+#greens {
+    background-image: url(/_next/static/media/greenrect.4a709515.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100%; */
+}
+#tri{
+    background-image: url(/_next/static/media/greenrect.4a709515.svg);
+    background-size: auto; 
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+#black{
+    background-image: url(/_next/static/media/blackimg.af513651.svg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#mont{
+    font-family: 'Montserrat';
+}
+
+@media (min-width:1536px) and (max-width:1800px){
+    #middle-full{
+        padding-left: 130px;
+        padding-right: 20px;
+    }
+}
