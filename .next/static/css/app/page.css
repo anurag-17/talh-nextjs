@@ -13,6 +13,52 @@
     /* object-fit: cover; */
     
 }
+#image2{
+    position: relative;
+    /* width: 50%; */
+}
+#img1{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  
+}
+#img4{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+#image2:hover #img1{
+    opacity: 0.3;
+}
+#image2:hover #img4{
+    opacity: 1;
+
+}
+#image2:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1); 
+    border-radius: 10px;
+    z-index: -1;
+}
+#img4{
+ width: 50px;
+  font-size: 50px;
+}
 #shampoo{
     background-image: url(/_next/static/media/shampoo.bc6db44b.svg);
     background-size: cover;

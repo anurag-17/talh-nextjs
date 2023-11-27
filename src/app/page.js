@@ -19,6 +19,7 @@ import man5 from "../../public/Rectangle 47.svg";
 import face from "../../public/facebook.svg";
 import insta from "../../public/instagram.svg";
 import twit from "../../public/twitter.svg";
+import instagram from '../../public/instagram.svg';
 
 const Home = () => {
   return (
@@ -168,16 +169,43 @@ const Home = () => {
           </div>
 
           {/* ------section 6--------- */}
-          <div className=" 2xl:mt-20 xl:mt-10 md:mt-10 sm:mt-14 mt-10 px-4 sm:px-8 md:px-10 lg:px-24 xl:px-36 2xl:px-52">
-            <div className="text-4xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold flex justify-center ">
+          <div className=" 2xl:mt-28 xl:mt-10 md:mt-10 sm:mt-14 mt-10 px-4 sm:px-8 md:px-10 lg:px-24 xl:px-36 2xl:px-52">
+            <div className="text-4xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-medium flex justify-center ">
               INSTAGRAM
             </div>
             <div className="grid sm:grid-cols-1  md:grid-cols-5  md:space-y-0 sm:space-y-7 space-y-4 gap-3 mt-5 sm:mt-5 md:mt-5 lg:mt-12">
-              <Image className="w-9/12 mx-auto md:w-full " src={man1} />
-              <Image className="w-9/12 mx-auto md:w-full" src={man2} />
-              <Image className="w-9/12 mx-auto md:w-full" src={man3} />
-              <Image className="w-9/12 mx-auto md:w-full" src={man4} />
-              <Image className="w-9/12 mx-auto md:w-full" src={man5} />
+
+            <div id="image2" >
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man1} />
+              <div className="img3">
+                <Image id="img4" src={instagram}/>
+              </div>
+              </div>
+              <div id="image2">
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man2} />
+              <div className="img3">
+                <Image id="img4" src={instagram}/>
+              </div>
+              </div>
+              <div id="image2">
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man3} />
+              <div className="img3">
+                <Image id="img4" src={instagram}/>
+              </div>
+              </div>
+              <div id="image2">
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man4} />
+              <div className="img3">
+                <Image id="img4" src={instagram}/>
+              </div>
+              </div>
+              <div id="image2">
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man5} />
+              <div className="img3">
+                <Image id="img4" src={instagram}/>
+              </div>
+              </div>
+
             </div>
           </div>
           {/* -------section 7----- */}
