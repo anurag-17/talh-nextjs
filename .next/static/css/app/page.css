@@ -59,4 +59,149 @@
         padding-left: 130px;
         padding-right: 20px;
     }
+    #section3{
+        margin-top: 0px;
+    }
+    #condition1{
+
+    }
+    #shampoo1{
+
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    #main-bg{
+        /* background-image: ; */
+        /* overflow: hidden; */
+        background:url(/_next/static/media/Manimage.d6241a90.svg);
+        /* background-size: cover;  */
+        background-size: 100%;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        -o-object-fit: cover;
+           object-fit: cover;
+        
+    }
+    #nav-top{
+
+        padding-top: 10px;
+    }
+
+}
+@media (min-width:640px) and (max-width:768px){
+    #main-bg{
+        /* background-image: ; */
+        /* overflow: hidden; */
+        background:url(/_next/static/media/Manimage.d6241a90.svg);
+        /* background-size: cover;  */
+        background-size: 100%;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        -o-object-fit: cover;
+           object-fit: cover;
+        
+    }
+    #nav-top{
+
+        padding-top: 10px;
+    }
+    #section3{
+        margin-top: 50px;
+    }
+
+}
+@media (min-width:520px) and (max-width:640px){
+    #main-bg{
+        /* background-image: ; */
+        /* overflow: hidden; */
+        background:url(/_next/static/media/Manimage.d6241a90.svg);
+        /* background-size: cover;  */
+        background-size: 100%;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        -o-object-fit: cover;
+           object-fit: cover;
+        
+    }
+    #nav-top{
+
+        padding-top: 10px;
+    }
+
+}
+@media (min-width:320px) and (max-width:520px){
+    #main-bg{
+        /* background-image: ; */
+        /* overflow: hidden; */
+        background:url(/_next/static/media/Manimage.d6241a90.svg);
+         /* background-size: cover;  */
+         background-size: 100%;
+         /* background-position: center; */
+         background-repeat: no-repeat;
+         -o-object-fit: cover;
+            object-fit: cover;
+         
+        }
+        #logo1{
+            width: 40px;
+        }
+        #nav-top{
+    
+            padding-top: 10px;
+        }
+        #nav-text{
+            font-size: 10px;
+        }
+       
+    #middle-full{
+        margin-top: 15px;
+        padding-left: 30px;
+        padding-right: 0px;
+        
+    }
+    #middle-the{
+     font-size: 20px;
+     margin: 0px;
+    }
+#middle-ultimate{
+    font-size: 23px;
+    
+}
+#middle-experience{
+    font-size: 23px;
+}
+#middle-hair{
+    font-size: 20px;
+}
+#section2{
+    margin-top: 0px;
+}
+#section3{
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+#shampoo1{
+    margin-top: 80px;
+    padding-bottom: 0px;
+}
+#condition1{
+    margin-top: 80px;
+    padding-bottom: 0px;
+}
+#view{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#about1{
+width: 30%;
+margin-left: 12px;
+}
+#about2{
+width: 33%;
+}
+#about3{
+width: 30%;
+}
+
 }
