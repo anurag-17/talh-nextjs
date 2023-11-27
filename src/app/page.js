@@ -169,20 +169,21 @@ const Home = () => {
 
           {/* ------section 6--------- */}
           <div className=" 2xl:mt-20 xl:mt-10 md:mt-10 sm:mt-14 mt-10 px-4 sm:px-8 md:px-10 lg:px-24 xl:px-36 2xl:px-52">
-            <div className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold flex justify-center ">
+            <div className="text-4xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold flex justify-center ">
               INSTAGRAM
             </div>
             <div className="grid sm:grid-cols-1  md:grid-cols-5  md:space-y-0 sm:space-y-7 space-y-4 gap-3 mt-5 sm:mt-5 md:mt-5 lg:mt-12">
-              <Image className="w-full" src={man1} />
-              <Image className="w-full" src={man2} />
-              <Image className="w-full" src={man3} />
-              <Image className="w-full" src={man4} />
-              <Image className="w-full" src={man5} />
+              <Image className="w-9/12 mx-auto md:w-full " src={man1} />
+              <Image className="w-9/12 mx-auto md:w-full" src={man2} />
+              <Image className="w-9/12 mx-auto md:w-full" src={man3} />
+              <Image className="w-9/12 mx-auto md:w-full" src={man4} />
+              <Image className="w-9/12 mx-auto md:w-full" src={man5} />
             </div>
           </div>
           {/* -------section 7----- */}
           <div className="mt-28" id="black">
             <footer className=" ">
+           
               <div className="grid grid-cols-2 gap-10 px-4 sm:px-8 lg:px-24 xl:px-36 2xl:px-52  py-8 xl:text-sm  2xl:text-lg md:px-10 lg:py-14 2xl:py-16 xl:grid-cols-5 md:grid-cols-4 sm:grid-cols-3">
                 <div className="sm:order-1">
                   <Image src={Logo} className="xl:w-36 2xl:w-48  " alt="Logoo" />
