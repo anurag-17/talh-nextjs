@@ -1,16 +1,17 @@
-import React from "react";
+'use client';
+import React, { useEffect } from "react";
 import "./newcss.css";
 import Image from "next/image";
 import Logo from "../../public/Logo.svg";
 import Link from "next/link";
 import Line from "../../public/Line.svg";
-import arrow from "../../public/rightarow.webp";
+import arrow from "../../public/rightarow.svg";
 import list1 from "../../public/Listings 1.webp";
 import list2 from "../../public/Listings 2.webp";
 import list3 from "../../public/Listings 3.webp";
-import nature1 from "../../public/nature1.webp";
-import nature2 from "../../public/nature2.webp";
-import nature3 from "../../public/nature3.webp";
+import nature1 from "../../public/nature1.svg";
+import nature2 from "../../public/nature2.svg";
+import nature3 from "../../public/nature3.svg";
 import man1 from "../../public/Rectangle 44.webp";
 import man2 from "../../public/Rectangle 46.webp";
 import man3 from "../../public/Rectangle 45.webp";
@@ -20,8 +21,15 @@ import face from "../../public/facebook.svg";
 import insta from "../../public/instagram.svg";
 import twit from "../../public/twitter.webp";
 import instagram from '../../public/instagram.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+  useEffect(()=>{
+  
+  AOS.init({duration:1000});
+  },[]);
+
   return (
     <>
       <section>
@@ -82,13 +90,13 @@ const Home = () => {
           {/* ----------SECTION 2----------- */}
           <div id="section2" className="flex flex-col 2xl:mt-20 xl:mt-12 lg:mt-10 md:mt-8 sm:mt-8 mt-6 justify-center items-center sm:gap-y-2 md:gap-y-5">
             <Image src={Line} className="2xl:h-24 xl:h-20 lg:h-16 md:h-16 sm:h-14 h-12 " alt="line" />
-            <div className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl">EXPLORE </div>
-            <div className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl">PRODUCTS</div>
+            <div className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl" data-aos="fade-right">EXPLORE </div>
+            <div className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl" data-aos="fade-left">PRODUCTS</div>
           </div>
 
           {/* ----------section 3---------- */}
           <div id="section3" className="2xl:px-52 xl:px-36 lg:px-24 md:px-10 sm:px-8 px-4 2xl:mt-20  grid gap-y-0 sm:gap-y-14 lg:gap-y-0  grid-cols-1  md:grid-cols-2 md:gap-10 lg:gap-14  ">
-            <div id="shampoo">
+            <div id="shampoo" data-aos="fade-right">
               <div id="shampoo1" className="lg:text-2xl xl:text-3xl 2xl:text-4xl font-medium mt-44 sm:mt-44 md:pt-1 lg:pt-30 xl:pt-16  2xl:pt-28 pl-12">SHAMPOO</div>
               <div className="flex pb-48 pt-5">
                 <div id="view" className="text-[#76805F] font-medium lg:text-xs xl:text-sm  2xl:text-lg pr-3 pl-12">
@@ -97,7 +105,7 @@ const Home = () => {
                 <Image src={arrow} alt="arrow" />
               </div>
             </div>
-            <div id="condition">
+            <div id="condition" data-aos="fade-left">
               <div id="condition1" className="lg:text-2xl xl:text-3xl 2xl:text-4xl font-medium mt-44 sm:mt-44 md:pt-1 lg:pt-30 xl:pt-16  2xl:pt-28 pl-12">CONDITIONER</div>
               <div className="flex pb-48 pt-5">
                 <div id="view" className="text-[#76805F] font-medium lg:text-xs xl:text-sm 2xl:text-lg pr-3 pl-12">
@@ -108,8 +116,8 @@ const Home = () => {
             </div>
           </div>
           {/* --------section 4---------- */}
-          <div className="px-4 sm:px-8 md:px-10 lg:px-24 xl:px-36 2xl:px-52 sm:mt-20  md:space-y-0 sm:space-y-16 space-y-14 mt-10  md:mt-20 grid md:grid-cols-3 md:gap-8  lg:gap-20 ">
-            <div>
+          <div  className="px-4 sm:px-8 md:px-10 lg:px-24 xl:px-36 2xl:px-52 sm:mt-20  md:space-y-0 sm:space-y-16 space-y-14 mt-10  md:mt-20 grid md:grid-cols-3 md:gap-8  lg:gap-20 ">
+            <div data-aos="flip-left">
               <Image className="w-full" src={list1} alt="image"/>
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">TALH Shampoo</div>
@@ -119,7 +127,7 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div>
+            <div data-aos="flip-left">
               <Image className="w-full" src={list2} alt="image"/>
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">
@@ -131,7 +139,7 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div>
+            <div data-aos="flip-left">
               <Image alt="image" className="w-full" src={list3} />
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">TALH Combo</div>
@@ -143,7 +151,7 @@ const Home = () => {
             </div>
           </div>
           {/* -------------section 5-------- */}
-          <div className="px-4 sm:px-8 md:px-10 lg:px-24 xl:px-36 2xl:px-52 mt-10 sm:mt-10 md:mt-10 lg:mt-14 xl:mt-10 2xl:mt-20">
+          <div data-aos="zoom-in-down" className="px-4 sm:px-8 md:px-10 lg:px-24 xl:px-36 2xl:px-52 mt-10 sm:mt-10 md:mt-10 lg:mt-14 xl:mt-10 2xl:mt-20">
             <div id="greens" className="">
               <div className="2xl:py-28 xl:py-20 lg:py-28 md:py-12 sm:py-10 py-7 2xl:px-64 flex flex-col items-center space-y-6 sm:space-y-10 md:space-y-5 lg:space-y-7 xl:space-y-4 2xl:space-y-9">
                 <div className="2xl:text-7xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-4xl text-3xl font-medium">ABOUT TALH</div>
@@ -175,32 +183,47 @@ const Home = () => {
             </div>
             <div className="grid sm:grid-cols-1  md:grid-cols-5  md:space-y-0 sm:space-y-7 space-y-4 gap-3 mt-5 sm:mt-5 md:mt-5 lg:mt-12">
 
-            <div id="image2" >
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man1} alt="image"/>
+            <div id="image2"  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+    //  data-aos-delay="300"
+     data-aos-offset="0">
+              <Image  id="img1" className="w-9/12 mx-auto md:w-full "  src={man1} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram} alt="image"/>
               </div>
               </div>
-              <div id="image2">
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man2} alt="image" />
+              <div  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+    //  data-aos-delay="300"
+     data-aos-offset="0" id="image2">
+              <Image id="img1" className="w-9/12 mx-auto md:w-full " src={man2} alt="image" />
               <div className="img3">
                 <Image id="img4" src={instagram}/>
               </div>
               </div>
-              <div id="image2">
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man3} alt="image"/>
+              <div  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+    //  data-aos-delay="300"
+     data-aos-offset="0" id="image2">
+              <Image id="img1" className="w-9/12 mx-auto md:w-full " src={man3} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram}/>
               </div>
               </div>
-              <div id="image2" >
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man4} alt="image"/>
+              <div  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+    //  data-aos-delay="300"
+     data-aos-offset="0" id="image2" >
+              <Image id="img1" className="w-9/12 mx-auto md:w-full " src={man4} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram} alt="image"/>
               </div>
               </div>
-              <div id="image2">
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man5} alt="image"/>
+              <div  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+    //  data-aos-delay="300"
+     data-aos-offset="0" id="image2">
+              <Image id="img1" className="w-9/12 mx-auto md:w-full " src={man5} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram} alt="image"/>
               </div>
@@ -329,7 +352,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <hr className="xl:mx-36 2xl:mx-40 lg:mx-24 md:mx-9 sm:mx-6 mx-4 border-t-2 border-[#315031] opacity-50" />
+              <hr className="xl:mx-36 2xl:mx-40 lg:mx-24 md:mx-9 sm:mx-6 mx-4 border-t-2 border-[#315031] opacity-25"/>
 
               <div className="xl:py-3 2xl:py-6 ">
                 <div className="xl:text-sm 2xl:text-base font-light  text-[#AAA] flex justify-center text-center ">
