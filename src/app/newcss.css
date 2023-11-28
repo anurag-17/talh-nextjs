@@ -1,7 +1,7 @@
 #main-bg{
     /* background-image: ; */
     /* overflow: hidden; */
-    background:url("../../public/Manimage.svg");
+    background:url("../../public/Manimage.webp");
     /* background-repeat: no-repeat;
     background-size: cover; */
     background-size: 100%;
@@ -57,7 +57,7 @@
   font-size: 50px;
 }
 #shampoo{
-    background-image: url('../../public/shampoo.svg');
+    background-image: url('../../public/shampoo.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,7 +67,7 @@
     
 }
 #condition{
-    background-image: url('../../public/condition.svg');
+    background-image: url('../../public/condition.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -111,7 +111,7 @@
     #main-bg{
         /* background-image: ; */
         /* overflow: hidden; */
-        background:url("../../public/Manimage.svg");
+        background:url("../../public/Manimage.webp");
          background-repeat: no-repeat;
         /* background-size: cover;  */
         background-size: 100%;
@@ -130,7 +130,7 @@
     #main-bg{
         /* background-image: ; */
         /* overflow: hidden; */
-        background:url("../../public/Manimage.svg");
+        background:url("../../public/Manimage.webp");
          background-repeat: no-repeat;
         /* background-size: cover;  */
         background-size: 100%;
@@ -152,7 +152,7 @@
     #main-bg{
         /* background-image: ; */
         /* overflow: hidden; */
-        background:url("../../public/Manimage.svg");
+        background:url("../../public/Manimage.webp");
          background-repeat: no-repeat;
         /* background-size: cover;  */
         background-size: 100%;
@@ -171,7 +171,7 @@
     #main-bg{
         /* background-image: ; */
         /* overflow: hidden; */
-        background:url("../../public/Manimage.svg");
+        background:url("../../public/Manimage.webp");
          background-repeat: no-repeat;
          /* background-size: cover;  */
          background-size: 100%;

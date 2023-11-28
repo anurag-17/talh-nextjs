@@ -4,21 +4,21 @@ import Image from "next/image";
 import Logo from "../../public/Logo.svg";
 import Link from "next/link";
 import Line from "../../public/Line.svg";
-import arrow from "../../public/rightarow.svg";
-import list1 from "../../public/Listings 1.svg";
+import arrow from "../../public/rightarow.webp";
+import list1 from "../../public/Listings 1.webp";
 import list2 from "../../public/Listings 2.webp";
 import list3 from "../../public/Listings 3.webp";
-import nature1 from "../../public/nature1.svg";
-import nature2 from "../../public/nature2.svg";
-import nature3 from "../../public/nature3.svg";
-import man1 from "../../public/Rectangle 44.svg";
-import man2 from "../../public/Rectangle 46.svg";
-import man3 from "../../public/Rectangle 45.svg";
-import man4 from "../../public/Rectangle 43.svg";
-import man5 from "../../public/Rectangle 47.svg";
+import nature1 from "../../public/nature1.webp";
+import nature2 from "../../public/nature2.webp";
+import nature3 from "../../public/nature3.webp";
+import man1 from "../../public/Rectangle 44.webp";
+import man2 from "../../public/Rectangle 46.webp";
+import man3 from "../../public/Rectangle 45.webp";
+import man4 from "../../public/Rectangle 43.webp";
+import man5 from "../../public/Rectangle 47.webp";
 import face from "../../public/facebook.svg";
 import insta from "../../public/instagram.svg";
-import twit from "../../public/twitter.svg";
+import twit from "../../public/twitter.webp";
 import instagram from '../../public/instagram.svg';
 
 const Home = () => {
@@ -103,14 +103,14 @@ const Home = () => {
                 <div id="view" className="text-[#76805F] font-medium lg:text-xs xl:text-sm 2xl:text-lg pr-3 pl-12">
                   View Product
                 </div>
-                <Image src={arrow} alt="arrow" />
+                <Image src={arrow} alt="arrow"/>
               </div>
             </div>
           </div>
           {/* --------section 4---------- */}
           <div className="px-4 sm:px-8 md:px-10 lg:px-24 xl:px-36 2xl:px-52 sm:mt-20  md:space-y-0 sm:space-y-16 space-y-14 mt-10  md:mt-20 grid md:grid-cols-3 md:gap-8  lg:gap-20 ">
             <div>
-              <Image className="w-full" src={list1} />
+              <Image className="w-full" src={list1} alt="image"/>
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">TALH Shampoo</div>
                 <div className="lg:text:xl xl:text-3xl font-medium">$17.00</div>
@@ -120,7 +120,7 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <Image className="w-full" src={list2} />
+              <Image className="w-full" src={list2} alt="image"/>
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">
                   TALH Hair Conditioner
@@ -132,7 +132,7 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <Image className="w-full" src={list3} />
+              <Image alt="image" className="w-full" src={list3} />
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">TALH Combo</div>
                 <div className="lg:text:xl xl:text-3xl font-medium">$30.00</div>
@@ -148,9 +148,9 @@ const Home = () => {
               <div className="2xl:py-28 xl:py-20 lg:py-28 md:py-12 sm:py-10 py-7 2xl:px-64 flex flex-col items-center space-y-6 sm:space-y-10 md:space-y-5 lg:space-y-7 xl:space-y-4 2xl:space-y-9">
                 <div className="2xl:text-7xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-4xl text-3xl font-medium">ABOUT TALH</div>
                 <div className="flex md:gap-4 lg:gap-6  xl:gap-7 2xl:gap-14">
-                  <Image id="about1" className="2xl:w-44 xl:w-28 lg:w-28 sm:w-28 w-32" src={nature3} />
-                  <Image id="about2" className="2xl:w-52 xl:w-32 sm:w-[120px] w-36 mt-10 md:mt-20 lg:mt-20  xl:mt-20 2xl:mt-24" src={nature2} />
-                  <Image id="about3" className="2xl:w-44 xl:w-28 lg:w-28 sm:w-28 w-32" src={nature1} />
+                  <Image id="about1" className="2xl:w-44 xl:w-28 lg:w-28 sm:w-28 w-32" src={nature3} alt="image"/>
+                  <Image alt="image" id="about2" className="2xl:w-52 xl:w-32 sm:w-[120px] w-36 mt-10 md:mt-20 lg:mt-20  xl:mt-20 2xl:mt-24" src={nature2} />
+                  <Image alt="image" id="about3" className="2xl:w-44 xl:w-28 lg:w-28 sm:w-28 w-32" src={nature1} />
                 </div>
                 <div>
                   <p className="text-[#606060] text-xs sm:text-sm 2xl:text-xl text-center" id="mont">
@@ -176,33 +176,33 @@ const Home = () => {
             <div className="grid sm:grid-cols-1  md:grid-cols-5  md:space-y-0 sm:space-y-7 space-y-4 gap-3 mt-5 sm:mt-5 md:mt-5 lg:mt-12">
 
             <div id="image2" >
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man1} />
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man1} alt="image"/>
+              <div className="img3">
+                <Image id="img4" src={instagram} alt="image"/>
+              </div>
+              </div>
+              <div id="image2">
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man2} alt="image" />
               <div className="img3">
                 <Image id="img4" src={instagram}/>
               </div>
               </div>
               <div id="image2">
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man2} />
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man3} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram}/>
+              </div>
+              </div>
+              <div id="image2" >
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man4} alt="image"/>
+              <div className="img3">
+                <Image id="img4" src={instagram} alt="image"/>
               </div>
               </div>
               <div id="image2">
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man3} />
+              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man5} alt="image"/>
               <div className="img3">
-                <Image id="img4" src={instagram}/>
-              </div>
-              </div>
-              <div id="image2">
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man4} />
-              <div className="img3">
-                <Image id="img4" src={instagram}/>
-              </div>
-              </div>
-              <div id="image2">
-              <Image id="img1" className="w-9/12 mx-auto md:w-full rounded-lg" src={man5} />
-              <div className="img3">
-                <Image id="img4" src={instagram}/>
+                <Image id="img4" src={instagram} alt="image"/>
               </div>
               </div>
 
