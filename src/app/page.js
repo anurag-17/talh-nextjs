@@ -1,13 +1,13 @@
 import React from "react";
 import "./newcss.css";
 import Image from "next/image";
-import Logo from "../../public/logo.png";
+import Logo from "../../public/Logo.svg";
 import Link from "next/link";
 import Line from "../../public/Line.svg";
 import arrow from "../../public/rightarow.svg";
 import list1 from "../../public/Listings 1.svg";
-import list2 from "../../public/Listings 2.png";
-import list3 from "../../public/Listings 3.png";
+import list2 from "../../public/Listings 2.webp";
+import list3 from "../../public/Listings 3.webp";
 import nature1 from "../../public/nature1.svg";
 import nature2 from "../../public/nature2.svg";
 import nature3 from "../../public/nature3.svg";
@@ -64,7 +64,7 @@ const Home = () => {
             </div>
 
             {/* ---------------Middle Text-------------- */}
-            <div className="2xl:pb-96 lg:pb-64 md:pb-40 sm:pb-36 pb-36 2xl:space-y-10 xl:space-y-7 lg:space-y-4 md:space-y-3 mt-16 sm:mt-20 md:mt-20 lg:mt-20 xl:mt-20 2xl:mt-36 pl-12 sm:pl-14 md:pl-16 lg:pl-44  xl:pl-60 2xl:pl-72 2xl:pr-40 xl:pr-32 lg:pr-24 md:pr-8 sm:pr-8 pr-4 opacity-50" id="middle-full">
+            <div className="2xl:pb-96 lg:pb-64 md:pb-40 sm:pb-36 pb-36 2xl:space-y-10 xl:space-y-7 lg:space-y-4 md:space-y-3 mt-16 sm:mt-20 md:mt-20 lg:mt-20 xl:mt-20 2xl:mt-40 pl-12 sm:pl-14 md:pl-16 lg:pl-44  xl:pl-60 2xl:pl-72 2xl:pr-40 xl:pr-32 lg:pr-24 md:pr-8 sm:pr-8 pr-4 opacity-50" id="middle-full">
               <p className="text-[#76805F] font-medium 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-4xl sm:text-3xl text-2xl md:px-14 xl:px-16 2xl:px-24" id="middle-the">THE</p>
               <div className="justify-between flex">
                 <p className="text-gray-500 2xl:text-8xl xl:text-6xl  lg:text-5xl md:text-5xl sm:text-4xl text-3xl font-medium " id="middle-ultimate" >ULTIMATE </p>
@@ -305,14 +305,14 @@ const Home = () => {
                   </h2>
                   <div className="relative">
                     <input
-                      className="border w-[100%] border-[#48523F]  2xl:px-6 bg-[#1E1E1E]  2xl:py-2  text-white"
+                      className="border w-[100%] border-[#48523F]  2xl:px-6 bg-[#1E1E1E]  2xl:py-2 py-1  text-white"
                       type="email"
                       placeholder="Email"
                     />
                     <Image
-                      src={arrow} // Replace with the path to your right arrow image
+                      src={arrow} 
                       alt="Right Arrow"
-                      className="absolute top-1/2 right-2 transform -translate-y-1/2"
+                      className="absolute top-1/2 right-2 transform -translate-y-1/2 w-5"
                     />
                   </div>
 
@@ -329,7 +329,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <hr className="xl:mx-36 2xl:mx-40 border-t-2 border-[#315031] opacity-50" />
+              <hr className="xl:mx-36 2xl:mx-40 lg:mx-24 md:mx-9 sm:mx-6 mx-4 border-t-2 border-[#315031] opacity-50" />
 
               <div className="xl:py-3 2xl:py-6 ">
                 <div className="xl:text-sm 2xl:text-base font-light  text-[#AAA] flex justify-center text-center ">
