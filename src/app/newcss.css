@@ -53,6 +53,12 @@
  width: 50px;
   font-size: 50px;
 }
+#logo1:hover{
+    transform: scale(1.5,1.5);
+}
+#nav-text ul li:hover{
+    transform: scale(1.6);
+}
 #shampoo{
     background-image: url('../../public/shampoo.webp');
     background-size: cover;

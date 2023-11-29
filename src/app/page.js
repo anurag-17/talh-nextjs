@@ -45,8 +45,8 @@ const Home = () => {
                 <Image src={Logo} className="2xl:w-30 xl:w-24 lg:w-16 md:w-16 sm:w-12 w-12" alt="Logoo" />
               </div>
               <div id="nav-text" className="text-white text-[13px] md:text-xs lg:text-xs xl:text-lg ">
-                <ul className="flex flex-row 2xl:space-x-12 xl:space-x-8 lg:space-x-6 md:space-x-6 sm:space-x-2 space-x-2">
-                  <li className="mb-4">
+                <ul id="lis" className="flex flex-row 2xl:space-x-12 xl:space-x-8 lg:space-x-6 md:space-x-6 sm:space-x-2 space-x-2">
+                  <li className="mb-4" id="lis">
                     <Link href="#" className="hover:underline">
                       HOME
                     </Link>
