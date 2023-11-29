@@ -183,46 +183,31 @@ const Home = () => {
             </div>
             <div className="grid sm:grid-cols-1  md:grid-cols-5  md:space-y-0 sm:space-y-7 space-y-4 gap-3 mt-5 sm:mt-5 md:mt-5 lg:mt-12">
 
-            <div id="image2"  data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-    //  data-aos-delay="300"
-     data-aos-offset="0">
+            <div id="image2">
               <Image  id="img1" className="w-9/12 mx-auto md:w-full "  src={man1} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram} alt="image"/>
               </div>
               </div>
-              <div  data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-    //  data-aos-delay="300"
-     data-aos-offset="0" id="image2">
+              <div id="image2">
               <Image id="img1" className="w-9/12 mx-auto md:w-full " src={man2} alt="image" />
               <div className="img3">
                 <Image id="img4" src={instagram}/>
               </div>
               </div>
-              <div  data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-    //  data-aos-delay="300"
-     data-aos-offset="0" id="image2">
+              <div id="image2">
               <Image id="img1" className="w-9/12 mx-auto md:w-full " src={man3} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram}/>
               </div>
               </div>
-              <div  data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-    //  data-aos-delay="300"
-     data-aos-offset="0" id="image2" >
+              <div id="image2" >
               <Image id="img1" className="w-9/12 mx-auto md:w-full " src={man4} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram} alt="image"/>
               </div>
               </div>
-              <div  data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-    //  data-aos-delay="300"
-     data-aos-offset="0" id="image2">
+              <div id="image2">
               <Image id="img1" className="w-9/12 mx-auto md:w-full " src={man5} alt="image"/>
               <div className="img3">
                 <Image id="img4" src={instagram} alt="image"/>

@@ -39,6 +39,7 @@
     opacity: 1;
 
 }
+
 #image2:hover::before {
     content: "";
     position: absolute;
