@@ -97,12 +97,12 @@ const Home = () => {
           {/* ----------section 3---------- */}
           <div id="section3" className="2xl:px-52 xl:px-36 lg:px-24 md:px-10 sm:px-8 px-4 2xl:mt-20  grid gap-y-0 sm:gap-y-14 lg:gap-y-0  grid-cols-1  md:grid-cols-2 md:gap-10 lg:gap-14  ">
             <div id="shampoo" data-aos="fade-right">
-              <div id="shampoo1" className="lg:text-2xl xl:text-3xl 2xl:text-4xl font-medium mt-44 sm:mt-44 md:pt-1 lg:pt-30 xl:pt-16  2xl:pt-28 pl-12">SHAMPOO</div>
+              <div  id="shampoo1" className="lg:text-2xl xl:text-3xl 2xl:text-4xl font-medium mt-44 sm:mt-44 md:pt-1 lg:pt-30 xl:pt-16  2xl:pt-28 pl-12">SHAMPOO</div>
               <div className="flex pb-48 pt-5">
-                <div id="view" className="text-[#76805F] font-medium lg:text-xs xl:text-sm  2xl:text-lg pr-3 pl-12">
+                <div  className="text-[#76805F] font-medium lg:text-xs xl:text-sm  2xl:text-lg pr-3 pl-12">
                   View Product
                 </div>
-                <Image src={arrow} alt="arrow" />
+                <Image id="view1"  src={arrow} alt="arrow" />
               </div>
             </div>
             <div id="condition" data-aos="fade-left">
@@ -111,7 +111,7 @@ const Home = () => {
                 <div id="view" className="text-[#76805F] font-medium lg:text-xs xl:text-sm 2xl:text-lg pr-3 pl-12">
                   View Product
                 </div>
-                <Image src={arrow} alt="arrow"/>
+                <Image id="view1" src={arrow} alt="arrow"/>
               </div>
             </div>
           </div>
@@ -120,9 +120,9 @@ const Home = () => {
             <div data-aos="flip-left">
               <Image className="w-full" src={list1} alt="image"/>
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
-                <div className="lg:text-sm xl:text-lg font-medium">TALH Shampoo</div>
-                <div className="lg:text:xl xl:text-3xl font-medium">$17.00</div>
-                <button className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
+                <div  className="lg:text-sm xl:text-lg font-medium">TALH Shampoo</div>
+                <div  id="anime" className="lg:text:xl xl:text-3xl font-medium">$17.00</div>
+                <button  className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
                   Add to Cart
                 </button>
               </div>
@@ -133,7 +133,7 @@ const Home = () => {
                 <div className="lg:text-sm xl:text-lg font-medium">
                   TALH Hair Conditioner
                 </div>
-                <div className="lg:text:xl xl:text-3xl font-medium">$17.00</div>
+                <div  id="anime" className="lg:text:xl xl:text-3xl font-medium">$17.00</div>
                 <button className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
                   Add to Cart
                 </button>
@@ -143,7 +143,7 @@ const Home = () => {
               <Image alt="image" className="w-full" src={list3} />
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">TALH Combo</div>
-                <div className="lg:text:xl xl:text-3xl font-medium">$30.00</div>
+                <div  id="anime" className="lg:text:xl xl:text-3xl font-medium">$30.00</div>
                 <button className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
                   Add to Cart
                 </button>
@@ -161,7 +161,7 @@ const Home = () => {
                   <Image alt="image" id="about3" className="2xl:w-44 xl:w-28 lg:w-28 sm:w-28 w-32" src={nature1} />
                 </div>
                 <div>
-                  <p className="text-[#606060] text-xs sm:text-sm 2xl:text-xl text-center" id="mont">
+                  <p className="text-[#606060] text-xs sm:text-sm 2xl:text-xl text-center xyz" id="mont">
                     Lorem ipsum dolor sit amet. Sed distinctio commodi sit quasi
                     nulla et aperiam delectus est deleniti commodi in quis
                     similique? Ut aliquam consequuntur aut delectus esse aut
@@ -217,12 +217,14 @@ const Home = () => {
             </div>
           </div>
           {/* -------section 7----- */}
-          <div className="mt-28" id="black">
-            <footer className=" ">
+          <div className="mt-28" id="black" >
+
+         
+            <footer className="" >
            
               <div className="grid grid-cols-2 gap-10 px-4 sm:px-8 lg:px-24 xl:px-36 2xl:px-52  py-8 xl:text-sm  2xl:text-lg md:px-10 lg:py-14 2xl:py-16 xl:grid-cols-5 md:grid-cols-4 sm:grid-cols-3">
                 <div className="sm:order-1">
-                  <Image src={Logo} className="xl:w-36 2xl:w-48  " alt="Logoo" />
+                  <Image src={Logo} className="xl:w-36 2xl:w-48  logot" alt="Logoo" />
                 </div>
                 <div className="text-white xl:ml-10 2xl:ml-20 sm:order-2">
                   <h2 className="mb-6 font-semibold  uppercase dark:text-white">
@@ -311,13 +313,15 @@ const Home = () => {
                   <h2 className="  font-semibold  uppercase dark:text-white">
                     SUBSCRIBE TO OUR EMAILS
                   </h2>
-                  <div className="relative">
+                  <div className="relative" >
                     <input
+                    
                       className="border w-[100%] border-[#48523F]  2xl:px-6 bg-[#1E1E1E]  2xl:py-2 py-1  text-white"
                       type="email"
                       placeholder="Email"
                     />
                     <Image
+                     id="view1"
                       src={arrow} 
                       alt="Right Arrow"
                       className="absolute top-1/2 right-2 transform -translate-y-1/2 w-5"
@@ -325,13 +329,13 @@ const Home = () => {
                   </div>
 
                   <div className="flex gap-4 ">
-                    <Link href="https://www.facebook.com">
+                    <Link id="roundd" href="https://www.facebook.com">
                       <Image src={twit} />
                     </Link>
-                    <Link href="https://www.instagram.com">
+                    <Link id="roundd" href="https://www.instagram.com">
                       <Image src={face} />
                     </Link>
-                    <Link href="https://twitter.com">
+                    <Link id="roundd" href="https://twitter.com">
                       <Image src={insta} />
                     </Link>
                   </div>

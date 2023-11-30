@@ -94,12 +94,37 @@
 }
 #black{
     background-image: url('../../public/blackimg.svg');
+    /* border-color: black; */
     background-size: cover; 
     background-repeat: no-repeat;
+    /* position: relative; */
 }
 #mont{
     font-family: 'Montserrat';
+    
 }
+.xyz{
+    transition:all 0.5s ease-in-out;
+}
+.xyz:hover{
+    transform: scale(1.1);
+    /* transform: translate(123px,123px); */
+}
+.logot{
+    /* transition-property: background-color;
+    transition-duration: 1s; */
+    /* transform: translate(-50%,-50%); */
+    
+    box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 30px rgba(0,0,255,.1), 0 0 0 45px rgba(0,0,255,.1), 0 0 0 60px rgba(0,0,255,.1), 0 0 0 75px rgba(0,0,255,.1),;
+}
+/* @keyframes anima{
+    0%{
+        box-shadow: 
+    }
+} */
+/* .logot:hover{
+    background-color: rgb(49, 58, 38);
+} */
 
 @media (min-width:1536px) and (max-width:1800px){
     #middle-full{
@@ -247,4 +272,54 @@ width: 33%;
 width: 30%;
 }
 
+}
+#roundd{
+    transition: all 0.5s ease-in-out;
+}
+#roundd:hover{
+    transform: rotate(360deg);
+}
+
+#anime{
+    animation-name: email;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction:alternate-reverse;
+}
+@keyframes email {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 15%;
+    }
+}
+#view1{
+    animation: views 1s infinite alternate-reverse;
+}
+@keyframes views {
+    from{
+        width: 0%;
+    }
+    to{
+        width:4%
+    }
+    
+}
+
+.snow1 {
+    background: url('../../public/snowing.png');
+    background-repeat: repeat;
+    position: absolute;
+    animation: animationone 10s infinite linear;
+    z-index: 1;
+}
+@keyframes animationone {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: 100px 1000px; /* Adjust these values */
+    }
 }
