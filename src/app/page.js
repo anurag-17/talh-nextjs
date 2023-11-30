@@ -217,10 +217,10 @@ const Home = () => {
             </div>
           </div>
           {/* -------section 7----- */}
-          <div className="mt-28" id="black" >
+          <div className="mt-28"  >
 
          
-            <footer className="" >
+            <footer className="snow1 snow2" id="black" >
            
               <div className="grid grid-cols-2 gap-10 px-4 sm:px-8 lg:px-24 xl:px-36 2xl:px-52  py-8 xl:text-sm  2xl:text-lg md:px-10 lg:py-14 2xl:py-16 xl:grid-cols-5 md:grid-cols-4 sm:grid-cols-3">
                 <div className="sm:order-1">

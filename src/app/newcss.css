@@ -93,12 +93,31 @@
     height: 30px;
 }
 #black{
-    background-image: url('../../public/blackimg.svg');
+    /* background-image:url('../../public/blackimg.svg'); */
+    background-color: black;
     /* border-color: black; */
     background-size: cover; 
     background-repeat: no-repeat;
     /* position: relative; */
 }
+
+.snow1 {
+    background: url('../../public/snowing.png');
+    /* background-repeat:repeat; */
+    background-size: cover;
+    animation: animationone 2s infinite linear;
+ 
+}
+@keyframes animationone {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: 0px 200px; /* Adjust these values */
+    }
+}
+
+
 #mont{
     font-family: 'Montserrat';
     
@@ -308,18 +327,3 @@ width: 30%;
     
 }
 
-.snow1 {
-    background: url('../../public/snowing.png');
-    background-repeat: repeat;
-    position: absolute;
-    animation: animationone 10s infinite linear;
-    z-index: 1;
-}
-@keyframes animationone {
-    0% {
-        background-position: 0px 0px;
-    }
-    100% {
-        background-position: 100px 1000px; /* Adjust these values */
-    }
-}
