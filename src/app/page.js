@@ -128,7 +128,7 @@ const Home = () => {
               </div>
             </div>
             <div data-aos="flip-left">
-              <Image className="w-full" src={list2} alt="image"/>
+              <Image className="w-full" src="/svg/img1.png" alt="image" height={446} width={446}/ >
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">
                   TALH Hair Conditioner
