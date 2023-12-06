@@ -7,8 +7,8 @@ import Link from "next/link";
 import Line from "../../public/Line.svg";
 import arrow from "../../public/rightarow.svg";
 import list1 from "../../public/Listings 1.svg";
-import list2 from "../../public/Listings 2.png";
-import list3 from "../../public/Listings 3.png";
+import list2 from "../../public/Listings 2.webp";
+import list3 from "../../public/Listings 3.webp";
 import nature1 from "../../public/nature1.svg";
 import nature2 from "../../public/nature2.svg";
 import nature3 from "../../public/nature3.svg";
@@ -134,7 +134,7 @@ const Home = () => {
                   TALH Hair Conditioner
                 </div>
                 <div  id="anime" className="lg:text:xl xl:text-3xl font-medium">$17.00</div>
-                <button className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
+                <button id="add-cart" className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
                   Add to Cart
                 </button>
               </div>

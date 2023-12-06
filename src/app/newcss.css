@@ -326,4 +326,24 @@ width: 30%;
     }
     
 }
+#middle-ultimate{
+    transition: all 0.5s ease-in-out;
+}
+#middle-ultimate:hover{
+    transform: rotate(360deg);
+}
+#middle-experience{
+    transition: all 0.5s ease-in-out;
+}
+#middle-experience:hover    {
+    transform: rotate(360deg);
+}
+
+
+#add-cart:hover{
+    /* background-color: aqua; */
+    letter-spacing: 0.5rem;
+    
+    box-shadow: 0 0 35px;
+}
 
