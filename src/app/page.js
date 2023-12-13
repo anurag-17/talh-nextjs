@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect } from "react";
+import React, { useState,useEffect } from "react";
 import "./newcss.css";
 import Image from "next/image";
 import Logo from "../../public/Logo.svg";
@@ -24,7 +24,20 @@ import instagram from '../../public/instagram.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 const Home = () => {
+
+  const [sidenavWidth, setSidenavWidth] = useState(0);
+
+  const openNav = () => {
+    setSidenavWidth(114);
+  };
+
+  const closeNav = () => {
+    setSidenavWidth(0);
+  };
+
+
   useEffect(()=>{
   
   AOS.init({duration:1000});
@@ -39,12 +52,26 @@ const Home = () => {
             id="main-bg"
             className="    bg-cover"
           >
+          <div className="block md:hidden text-white z-50 fixed  
+                w-full top-1 left-1">
+          <div id="mySidenav" className="sidenav relative" style={{ width: `${sidenavWidth}px` }}>
+        <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
+        <a href="#">HOME</a>
+        <a href="#">SHOP</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+      </div>
+
+      
+      <span className="navicon"  onClick={openNav}>&#9776;</span>
+          </div>
             {/* ------------Nav Bar---------- */}
             <div id="nav-top" className="flex flex-row items-center justify-between  lg:p-8 xl:p-10 px-4 sm:px-8 md:px-10 lg:px-24 2xl:px-52 xl:px-36 ">
+            
               <div id="logo1">
                 <Image src={Logo} className="2xl:w-30 xl:w-24 lg:w-16 md:w-16 sm:w-12 w-12" alt="Logoo" />
               </div>
-              <div id="nav-text" className="text-white text-[13px] md:text-xs lg:text-xs xl:text-lg ">
+              <div id="nav-text" className="hidden md:block  text-white text-[13px] md:text-xs lg:text-xs xl:text-lg ">
                 <ul id="lis" className="flex flex-row 2xl:space-x-12 xl:space-x-8 lg:space-x-6 md:space-x-6 sm:space-x-2 space-x-2">
                   <li className="mb-4" id="lis">
                     <Link href="#" className="hover:underline">
@@ -98,7 +125,7 @@ const Home = () => {
           <div id="section3" className="2xl:px-52 xl:px-36 lg:px-24 md:px-10 sm:px-8 px-4 2xl:mt-20  grid gap-y-0 sm:gap-y-14 lg:gap-y-0  grid-cols-1  md:grid-cols-2 md:gap-10 lg:gap-14  ">
             <div id="shampoo" data-aos="fade-right">
               <div  id="shampoo1" className="lg:text-2xl xl:text-3xl 2xl:text-4xl font-medium mt-44 sm:mt-44 md:pt-1 lg:pt-30 xl:pt-16  2xl:pt-28 pl-12">SHAMPOO</div>
-              <div className="flex pb-48 pt-5">
+              <div className="flex pb-48 pt-5 viewpro">
                 <div  className="text-[#76805F] font-medium lg:text-xs xl:text-sm  2xl:text-lg pr-3 pl-12">
                   View Product
                 </div>
@@ -122,7 +149,8 @@ const Home = () => {
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div  className="lg:text-sm xl:text-lg font-medium">TALH Shampoo</div>
                 <div  id="anime" className="lg:text:xl xl:text-3xl font-medium">$17.00</div>
-                <button  className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
+                <button  className="2xl:px-16 xl:px-10 lg:px-6 px-5
+                 rounded-sm xl:py-2 lg:py-1 py-1 bg-black text-white xl:text-lg lg:text-sm font-medium addtocart">
                   Add to Cart
                 </button>
               </div>
@@ -134,7 +162,7 @@ const Home = () => {
                   TALH Hair Conditioner
                 </div>
                 <div  id="anime" className="lg:text:xl xl:text-3xl font-medium">$17.00</div>
-                <button id="add-cart" className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
+                <button id="add-cart" className="2xl:px-16 xl:px-10 lg:px-6 px-5 rounded-sm xl:py-2 lg:py-1 py-1 bg-black text-white xl:text-lg lg:text-sm font-medium addtocart">
                   Add to Cart
                 </button>
               </div>
@@ -144,7 +172,7 @@ const Home = () => {
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm xl:text-lg font-medium">TALH Combo</div>
                 <div  id="anime" className="lg:text:xl xl:text-3xl font-medium">$30.00</div>
-                <button className="2xl:px-16 xl:px-10 lg:px-6 rounded-sm xl:py-4 lg:py-1 bg-black text-white xl:text-lg lg:text-sm font-medium">
+                <button className="2xl:px-16 xl:px-10 lg:px-6 px-5 rounded-sm xl:py-2 lg:py-1 py-1 bg-black text-white xl:text-lg lg:text-sm font-medium addtocart">
                   Add to Cart
                 </button>
               </div>
@@ -316,7 +344,7 @@ const Home = () => {
                   <div className="relative" >
                     <input
                     
-                      className="border w-[100%] border-[#48523F]  2xl:px-6 bg-[#1E1E1E]  2xl:py-2 py-1  text-white"
+                      className="border w-[100%] border-[#48523F]  2xl:px-6 bg-black  2xl:py-2 py-1  text-white"
                       type="email"
                       placeholder="Email"
                     />
@@ -344,7 +372,7 @@ const Home = () => {
               <hr className="xl:mx-36 2xl:mx-40 lg:mx-24 md:mx-9 sm:mx-6 mx-4 border-t-2 border-[#315031] opacity-25"/>
 
               <div className="xl:py-3 2xl:py-6 ">
-                <div className="xl:text-sm 2xl:text-base font-light  text-[#AAA] flex justify-center text-center ">
+                <div className="text-xs xl:text-sm 2xl:text-base font-light  text-[#AAA] flex justify-center text-center ">
                   © 2023 TALH
                   <Link href="#">. </Link>
                   All Rights Reserved.
