@@ -7,3 +7,9 @@
     src: url('../../public/Montserrat/Montserrat-VariableFont_wght.ttf');
     font-style: normal;
     }
+
+    @font-face {
+        font-family: 'Agus-Sans';
+        src: url('../../public/AgusSans-Regular_22751951a4849c8b1fcfa81426bbbe12.otf');
+        font-style:normal;
+        }

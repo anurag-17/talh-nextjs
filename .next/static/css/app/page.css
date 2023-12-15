@@ -11,6 +11,14 @@
     /* object-fit: cover; */
     
 }
+
+#middle-ultimate{
+    font-family: Agus-sans;
+}
+#middle-experience{
+    font-family: Agus-sans;
+}
+
 #image2{
     position: relative;
     /* width: 50%; */
@@ -149,13 +157,30 @@
 } */
 
 @media (min-width:1536px) and (max-width:1800px){
+    #main-bg{
+   /* padding-top: 100px !important; */
+    }
     #middle-full{
-        padding-left: 130px;
-        padding-right: 20px;
-        padding-bottom: 256px;
+        padding-left: 220px;
+        padding-right: 100px;
+        padding-bottom: 319px;
+        margin-top: 109px;
+    
+    }
+    #middle-ultimate{
+        font-size: 90px;
+    }
+    #middle-experience{
+        font-size: 90px;
+    }
+    .ult-exp{
+        margin-top:10px !important;
     }
     #section3{
         margin-top: 0px;
+    }
+    .oil{
+        margin-top: 0;
     }
    
 }
@@ -176,6 +201,15 @@
 
         padding-top: 10px;
     }
+}
+@media (min-width:768px) and (max-width:830px){
+     .oil{
+        margin-top: 0px !important;
+     }
+     #section3{
+        margin-top:0px !important;
+     }
+     
 
 }
 @media (min-width:640px) and (max-width:768px){
@@ -252,7 +286,7 @@
         
     }
     #middle-the{
-     font-size: 20px;
+     font-size: 18px;
      margin: 0px;
     }
 #middle-ultimate{
@@ -263,13 +297,13 @@
     font-size: 23px;
 }
 #middle-hair{
-    font-size: 20px;
+    font-size: 18px;
 }
 #section2{
     margin-top: 22px;
 }
 #section3{
-    margin-top: 0px;
+    margin-top: 10px;
     padding-bottom: 0px;
     padding-top: 0px;
 }
@@ -344,7 +378,14 @@ width: 30%;
     transform: rotate(360deg);
 }
 
-
+.zoom-in-down-effect{
+   animation:  data-aos="zoom-in-down";
+}
+@media screen and (max-width: 768px) {
+    .md\:zoom-in-down-disabled {
+      animation: none; /* or any other styles to disable the effect */
+    }
+  }
 
 
 
@@ -402,6 +443,9 @@ width: 30%;
     background-color: #000428;
     transition: box-shadow 0.3s ease-in-out, background-color 0.5s ease-in-out;
   }
+
+
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./node_modules/aos/dist/aos.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************/
