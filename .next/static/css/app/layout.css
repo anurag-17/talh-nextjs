@@ -1397,6 +1397,18 @@ video {
     margin-top: 5rem;
   }
 
+  .xl\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .xl\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
+  .xl\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .xl\:h-20 {
     height: 5rem;
   }
@@ -1504,6 +1516,66 @@ video {
     padding-top: 4rem;
   }
 
+  .xl\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .xl\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .xl\:pt-14 {
+    padding-top: 3.5rem;
+  }
+
+  .xl\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .xl\:pb-72 {
+    padding-bottom: 18rem;
+  }
+
+  .xl\:pb-80 {
+    padding-bottom: 20rem;
+  }
+
+  .xl\:pb-96 {
+    padding-bottom: 24rem;
+  }
+
+  .xl\:pb-\[\] {
+    padding-bottom: ;
+  }
+
+  .xl\:pb-\[200px\] {
+    padding-bottom: 200px;
+  }
+
+  .xl\:pb-\[500px\] {
+    padding-bottom: 500px;
+  }
+
+  .xl\:pb-\[400px\] {
+    padding-bottom: 400px;
+  }
+
+  .xl\:pb-\[350px\] {
+    padding-bottom: 350px;
+  }
+
+  .xl\:pb-\[313px\] {
+    padding-bottom: 313px;
+  }
+
+  .xl\:pr-36 {
+    padding-right: 9rem;
+  }
+
+  .xl\:pr-40 {
+    padding-right: 10rem;
+  }
+
   .xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1545,6 +1617,14 @@ video {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-\[\] {
+    color: ;
+  }
+
+  .xl\:text-\[12\] {
+    color: 12;
   }
 }
 

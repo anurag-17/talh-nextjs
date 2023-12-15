@@ -66,12 +66,12 @@ const Home = () => {
       <span className="navicon"  onClick={openNav}>&#9776;</span>
           </div>
             {/* ------------Nav Bar---------- */}
-            <div id="nav-top" className="flex flex-row items-center justify-between  lg:p-8 xl:p-10 px-4 sm:px-8 md:px-10 lg:px-24 2xl:px-52 xl:px-36 ">
+            <div id="nav-top" className="flex flex-row items-center justify-between  xl:pt-12 lg:p-8 xl:p-10 px-4 sm:px-8 md:px-10 lg:px-24 2xl:px-52 xl:px-36 ">
             
               <div id="logo1">
                 <Image src={Logo} className="2xl:w-30 xl:w-24 lg:w-16 md:w-16 sm:w-12 w-12" alt="Logoo" />
               </div>
-              <div id="nav-text" className="hidden md:block  text-white text-[13px] md:text-xs lg:text-xs xl:text-lg ">
+              <div id="nav-text" className="hidden md:block  text-white text-[13px] md:text-xs lg:text-xs xl:text-[12px] 2xl:text-lg ">
                 <ul id="lis" className="flex flex-row 2xl:space-x-12 xl:space-x-8 lg:space-x-6 md:space-x-6 sm:space-x-2 space-x-2">
                   <li className="mb-4" id="lis">
                     <Link href="#" className="hover:underline">
@@ -99,7 +99,7 @@ const Home = () => {
             </div>
 
             {/* ---------------Middle Text-------------- */}
-            <div className="2xl:pb-96 lg:pb-64 md:pb-40 sm:pb-36 pb-36 2xl:space-y-10 xl:space-y-7 lg:space-y-4 md:space-y-3 mt-16 sm:mt-20 md:mt-20 lg:mt-20 xl:mt-20 2xl:mt-40 pl-12 sm:pl-14 md:pl-16 lg:pl-48  xl:pl-60 2xl:pl-[350px] 2xl:pr-52 xl:pr-32 lg:pr-32 md:pr-8 sm:pr-8 pr-4 opacity-50" id="middle-full">
+            <div className="2xl:pb-96 xl:pb-[313px] lg:pb-64 md:pb-40 sm:pb-36 pb-36 2xl:space-y-10 xl:space-y-7 lg:space-y-4 md:space-y-3 mt-16 sm:mt-20 md:mt-20 lg:mt-20 xl:mt-16  2xl:mt-40 pl-12 sm:pl-14 md:pl-16 lg:pl-48  xl:pl-60 2xl:pl-[350px] 2xl:pr-52 xl:pr-40 lg:pr-32 md:pr-8 sm:pr-8 pr-4 opacity-50" id="middle-full">
               <p className="text-[#76805F] font-medium 2xl:text-5xl xl:text-4xl lg:text-2xl md:text-4xl sm:text-3xl text-2xl md:px-14 xl:px-16 2xl:px-24" id="middle-the">THE</p>
               <div className="justify-between flex ult-exp">
                 <p className="text-gray-500 2xl:text-8xl xl:text-6xl  lg:text-5xl md:text-5xl sm:text-4xl text-3xl font-medium" id="middle-ultimate">ULTIMATE</p>
