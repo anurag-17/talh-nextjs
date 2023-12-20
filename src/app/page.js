@@ -148,7 +148,7 @@ const Home = () => {
               <Image className="w-full" src={list1} alt="image"/>
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div  className="lg:text-sm 2xl:text-lg xl:text-sm font-medium">TALH Shampoo</div>
-                <div  id="anime" className="lg:text:xl 2xl:text-3xl xl:text-xl font-medium">$17.00</div>
+                <div  id="" className="lg:text:xl 2xl:text-3xl xl:text-xl font-medium">$17.00</div>
                 <button  className="2xl:px-[70px] xl:px-12 lg:px-6 px-5
                  rounded-sm 2xl:py-4 xl:py-3 lg:py-1 py-1 bg-black text-white 2xl:text-lg xl:text-[12px] lg:text-sm font-medium addtocart">
                   Add to Cart
@@ -161,7 +161,7 @@ const Home = () => {
                 <div className="lg:text-sm 2xl:text-lg xl:text-sm font-medium">
                   TALH Hair Conditioner
                 </div>
-                <div  id="anime" className=" lg:text:xl 2xl:text-3xl xl:text-xl font-medium">$17.00</div>
+                <div  id="" className=" lg:text:xl 2xl:text-3xl xl:text-xl font-medium">$17.00</div>
                 <button  className="  2xl:px-[70px] xl:px-12 lg:px-6 px-5
                  rounded-sm 2xl:py-4 xl:py-3 lg:py-1 py-1 bg-black text-white 2xl:text-lg xl:text-[12px] lg:text-sm font-medium addtocart">
                   Add to Cart
@@ -172,7 +172,7 @@ const Home = () => {
               <Image alt="image" className="w-full" src={list3} />
               <div className="2xl:space-y-5 xl:space-y-3 lg:space-y-2 mt-4 justify-center items-center flex flex-col ">
                 <div className="lg:text-sm 2xl:text-lg xl:text-sm font-medium">TALH Combo</div>
-                <div  id="anime" className="lg:text:xl 2xl:text-3xl xl:text-xl font-medium">$30.00</div>
+                <div  id="" className="lg:text:xl 2xl:text-3xl xl:text-xl font-medium">$30.00</div>
                 <button  className="2xl:px-[70px] xl:px-12 lg:px-6 px-5
                  rounded-sm 2xl:py-4 xl:py-3 lg:py-1 py-1 bg-black text-white 2xl:text-lg xl:text-[12px] lg:text-sm font-medium addtocart">
                   Add to Cart
@@ -250,7 +250,7 @@ const Home = () => {
           <div className="mt-28"  >
 
          
-            <footer className="snow1 snow2" id="black" >
+            <footer className="" id="black" >
            
               <div className="grid grid-cols-2 gap-10 px-4 sm:px-8 lg:px-24 xl:px-36 2xl:px-52  py-8 xl:text-sm  2xl:text-lg md:px-10 lg:py-14 2xl:py-16 xl:grid-cols-5 md:grid-cols-4 sm:grid-cols-3">
                 <div className="sm:order-1">
